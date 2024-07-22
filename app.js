@@ -8,7 +8,7 @@ btn.addEventListener('click', function(e){
     if(contentDiv || countries){
         updateUI();                                                              
     }
-    val = inputCntry.value;
+    val = (inputCntry.value).trim();
     country(val);
     inputCntry.value = '';
 });
